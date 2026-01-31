@@ -30,8 +30,8 @@ function showArticles(articles) {
 function fetchNews(query) {
   showLoading();
 
-  // Replace the NewsAPI URL with the Netlify function endpoint
-  fetch(`/api/getNews?q=${query}`)
+  // Corrected: Use the Netlify function URL (replace "your-netlify-site" with your actual site name)
+  fetch('https://your-netlify-site.netlify.app/.netlify/functions/getNews?q=' + query)
     .then(response => response.json())
     .then(data => {
       showArticles(data);
