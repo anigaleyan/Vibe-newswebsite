@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f6f6f6;
+  }
+  
+  /* HEADER */
+  .bbc-header {
+    background: #b80000;
+    padding: 15px 0;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 20px;
+    letter-spacing: 2px;
+  }
+  
+  /* NAV */
+  .bbc-nav {
+    background: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .bbc-nav button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    margin-right: 15px;
+    cursor: pointer;
+    color: #111;
+  }
+  
+  .bbc-nav button:hover {
+    text-decoration: underline;
+  }
+  
+  /* CONTENT */
+  #news-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 15px;
+  }
+  
+  /* ARTICLE */
+  .article {
+    background: white;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .article h2 {
+    font-size: 22px;
+    margin: 0 0 6px;
+  }
+  
+  .article a {
+    color: #111;
+    text-decoration: none;
+  }
+  
+  .article a:hover {
+    color: #b80000;
+    text-decoration: underline;
+  }
+  
+  .article p {
+    font-size: 13px;
+    color: #666;
+  }
+  
+  .loading {
+    font-size: 18px;
+    color: #444;
+  }
+  

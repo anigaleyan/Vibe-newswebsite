@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BBC Style News</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="bbc-header">
+    <div class="logo">BBC NEWS</div>
+  </header>
+
+  <nav class="bbc-nav">
+    <button onclick="loadApple()">Apple</button>
+    <button onclick="loadTesla()">Tesla</button>
+    <button onclick="loadBusiness()">Business</button>
+    <button onclick="loadTech()">Tech</button>
+    <button onclick="loadWSJ()">WSJ</button>
+  </nav>
+
+  <main id="news-container">
+    <p class="loading">Select a category to see headlines</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
