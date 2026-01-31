@@ -1,6 +1,6 @@
 [build]
+  publish = "."        # Publish from the root directory
   functions = "functions"
-  publish = "public"
 
 [[redirects]]
   from = "/api/*"
