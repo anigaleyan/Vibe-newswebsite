@@ -30,8 +30,8 @@ function showArticles(articles) {
 function fetchNews(query) {
   showLoading();
 
-  // Corrected: Use the Netlify function URL (replace "your-netlify-site" with your actual site name)
-  fetch('https://your-netlify-site.netlify.app/.netlify/functions/getNews?q=' + query)
+  // Use your actual Netlify site URL (replace 'newswebsitetask2' with your actual site name)
+  fetch('https://newswebsitetask2.netlify.app/.netlify/functions/getNews?q=' + query)
     .then(response => response.json())
     .then(data => {
       showArticles(data);
